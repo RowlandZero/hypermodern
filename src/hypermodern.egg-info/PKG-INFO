@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: hypermodern
+Version: 0.1.0
+Summary: The hypermodern Python project
+Home-page: https://github.com/RowlandZero/hypermodern
+Author: rowlandzero
+License: UNKNOWN
+Description: # hypermodern
+        following the hypermodern tutorial
+        
+Platform: UNKNOWN
+Requires-Python: >=3.7,<4.0
