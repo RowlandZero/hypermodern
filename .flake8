@@ -1,4 +1,6 @@
 # .flake8
 [flake8]
-select = C,E,F,W
-max-complexity = 10
+per-file-ignores = tests/*:S101
+select = B,B9,BLK,C,E,F,S,W
+ignore = E203,E501,W503
+max-line-lengths = 80
