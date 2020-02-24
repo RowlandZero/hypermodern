@@ -16,6 +16,7 @@ hypermodern = "hypermodern.console:main"
 python = "^3.7"
 click = "^7.0"
 requests = "^2.22.0"
+flake8 = "^3.7.9"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.3.5"
