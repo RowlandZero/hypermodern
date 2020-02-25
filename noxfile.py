@@ -31,5 +31,5 @@ def tests(session):
 @nox.session(python=["3.8"])
 def mypy(session) -> None:
     args = session.posargs or locations
-    install_with_constraints(session, "mypy")
+    session.install("mypy")
     session.run("mypy", *args)

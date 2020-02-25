@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "/home/sfrowland/.cache/pypoetry/virtualenvs/hypermodern-a79W3_CZ-py3.8/bin/python"
+    "python.pythonPath": "/home/sfrowland/.cache/pypoetry/virtualenvs/hypermodern-a79W3_CZ-py3.8/bin/python",
+    "git.ignoreLimitWarning": true
 }
