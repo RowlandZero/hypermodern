@@ -5,7 +5,7 @@ import pytest
 @pytest.fixture
 def mock_requests_get(mocker):
     """Provides a mock API response.
-    
+
     Returns:
         Json document
     """
