@@ -1,4 +1,5 @@
-[![Tests](https://github.com/<your-username>/hypermodern-python/workflows/Tests/badge.svg)](https://github.com/<your-username>/hypermodern-python/actions?workflow=Tests)
+![Tests](https://github.com/RowlandZero/hypermodern/workflows/Tests/badge.svg)
+
 
 # hypermodern
 following the hypermodern tutorial
