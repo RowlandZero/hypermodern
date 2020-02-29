@@ -1,4 +1,5 @@
 # src/hypermodern/console.py
+"""Command-line interface."""
 import textwrap
 
 import click
@@ -17,7 +18,15 @@ from . import __version__, wikipedia
 )
 @click.version_option(version=__version__)
 def main(language: str) -> None:
-    """The hypermodern Python project."""
+    """Fetch a random wikipedia page title and summary.
+
+    Args:
+        language: The Wikipedia language edition. By default, the English
+            Wikipedia is used ("en").
+
+    Returns:
+        A page resource to the console.
+    """
     page = wikipedia.random_page(language=language)
 
     click.secho(page.title, fg="green")
